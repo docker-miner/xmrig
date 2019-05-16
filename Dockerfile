@@ -1,4 +1,4 @@
-#1557983629.598
+#1557990829.388
 FROM ubuntu:latest
 RUN apt-get update && apt-get -yqq install wget
 RUN wget -qO- https://github.com/xmrig/xmrig/releases/download/v2.15.3-beta/xmrig-2.15.3-beta-xenial-x64.tar.gz | tar xzf -
